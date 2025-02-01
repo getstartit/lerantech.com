@@ -1,0 +1,34 @@
+.curosel-indicator-color:active{
+    background-color: #243B64 !important;
+}
+
+.bg-white {
+    background-color: white !important;
+  }
+  
+  .t-color {
+    color: #243B64 !important;
+  }
+  
+  .p-color{
+    color : #243B64 !important;
+  }
+
+  .common-bcolor{
+    background: linear-gradient(135deg, #243B64, #F9636B);
+  }
+  .btn-tcolor{
+    color: white !important;
+  }
+
+  .placement-color {
+    color: #243B64;
+  }
+
+  .heading-color{
+    background:linear-gradient(135deg, #243B64, #F9636B);
+    
+  }
+  .main-color{
+    color:#A4204D ;
+  }

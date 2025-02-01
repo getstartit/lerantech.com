@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lerantech.com/static/css/main.ca67ef22.css",
+    "main.js": "/lerantech.com/static/js/main.60b0fcd2.js",
+    "index.html": "/lerantech.com/index.html",
+    "main.ca67ef22.css.map": "/lerantech.com/static/css/main.ca67ef22.css.map",
+    "main.60b0fcd2.js.map": "/lerantech.com/static/js/main.60b0fcd2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca67ef22.css",
+    "static/js/main.60b0fcd2.js"
+  ]
+}
