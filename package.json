@@ -1,0 +1,80 @@
+{
+  "name": "learn-tech-fe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/roboto": "^5.1.1",
+    "@mui/icons-material": "^6.3.1",
+    "@mui/material": "^6.3.1",
+    "@mui/styled-engine-sc": "^6.3.1",
+    "@reduxjs/toolkit": "^2.5.0",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
+    "countup.js": "^2.8.0",
+    "cra-template-typescript": "1.2.0",
+    "postcss": "^8.5.0",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.7",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.28.1",
+    "react-scripts": "^5.0.1",
+    "redux": "^5.0.1",
+    "resolve-url-loader": "^5.0.0",
+    "styled-components": "^6.1.14",
+    "web-vitals": "^4.2.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,css,json,md}": "prettier --write"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write ."
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/countup.js": "^1.9.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.1",
+    "gh-pages": "^6.3.0",
+    "husky": "^9.1.7",
+    "jest": "^27.5.1",
+    "lint-staged": "^15.3.0",
+    "prettier": "^3.4.2"
+  }
+}
