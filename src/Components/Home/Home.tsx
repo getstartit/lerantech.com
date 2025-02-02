@@ -78,7 +78,8 @@ export const Home = () => {
 
                             <div className="w-50">
                                 <img
-                                    src={`${process.env.PUBLIC_URL}/image/home-2.jpg`}
+                                    src='https://raw.githubusercontent.com/getstartit/lerantech.com/main/public/image/home-2.jpg
+'
                                     className="d-block w-100"
                                     alt="Java Full Stack"
                                 />
